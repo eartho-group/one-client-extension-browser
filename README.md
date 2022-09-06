@@ -9,7 +9,7 @@
   <h1 align="center">Eartho. One</h1>
 
   <p align="center">
-  Authentication & Payments For Chrome / Firefox Extensions<br />
+  Authentication & Payments For Chrome / Firefox Extensions<br /><br /><br /><br />
     One line of code to authenticate and charge users via<br /><b>Any social network, crypto wallet and phone authentication</b><br /><br />
 You don't need to read the documents of all companies and you don't need to open accounts there.<br />
 We are a third layer that abstracts the complexity for you and protects your users from being tracked.<br /><br />
