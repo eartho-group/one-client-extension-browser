@@ -3,7 +3,7 @@
   "name": "@eartho/one-client-extension-browser",
   "description": "SDK for super easy authentication and payments for extensions of chrome , firefox and opera",
   "license": "Eartho License",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/lib/one-client-extension-browser.cjs.js",
   "types": "dist/typings/index.d.ts",
   "module": "dist/one-client-extension-browser.production.esm.js",
@@ -92,9 +92,11 @@
   "homepage": "https://github.com/eartho-group/one-client-extension-browser#readme",
   "keywords": [
     "Eartho",
-    "Webflow",
-    "content",
-    "no-code"
+    "Extension",
+    "Authentication",
+    "Payments",
+    "Chrome",
+    "Firefox"
   ],
   "husky": {
     "hooks": {
