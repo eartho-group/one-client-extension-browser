@@ -72,7 +72,7 @@ let bundles = [
     input: 'src/index.cjs.ts',
     output: {
       name: EXPORT_NAME,
-      file: 'dist/one-extension-content.development.js',
+      file: 'dist/one-client-extension-browser.development.js',
       footer,
       format: 'umd',
       sourcemap: true
@@ -102,7 +102,7 @@ if (isProduction) {
       output: [
         {
           name: EXPORT_NAME,
-          file: 'dist/one-extension-content.production.js',
+          file: 'dist/one-client-extension-browser.production.js',
           footer,
           format: 'umd'
         }

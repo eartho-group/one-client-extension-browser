@@ -9,7 +9,7 @@ import version from './version';
  * @ignore
  */
 export const DEFAULT_EARTHO_CLIENT = {
-  name: 'one-extension-content',
+  name: 'one-client-extension-browser',
   version: version
 };
 

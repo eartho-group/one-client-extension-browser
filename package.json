@@ -1,12 +1,12 @@
 {
   "author": "Eartho",
-  "name": "@eartho/one-extension-content",
+  "name": "@eartho/one-client-extension-browser",
   "description": "SDK for super easy authentication and payments for extensions of chrome , firefox and opera",
   "license": "Eartho License",
   "version": "1.0.0",
-  "main": "dist/lib/one-extension-content.cjs.js",
+  "main": "dist/lib/one-client-extension-browser.cjs.js",
   "types": "dist/typings/index.d.ts",
-  "module": "dist/one-extension-content.production.esm.js",
+  "module": "dist/one-client-extension-browser.production.esm.js",
   "scripts": {
     "dev": "rimraf dist && rollup -c --watch",
     "start": "npm run dev",
@@ -20,8 +20,8 @@
     "test:open:integration": "cypress open",
     "test:watch:integration": "concurrently --raw npm:dev 'npm:test:open:integration'",
     "test:es-check": "npm run test:es-check:es5 && npm run test:es-check:es2015:module",
-    "test:es-check:es5": "es-check es5 'dist/one-extension-content.production.js'",
-    "test:es-check:es2015:module": "es-check es2015 'dist/one-extension-content.production.esm.js' --module ",
+    "test:es-check:es5": "es-check es5 'dist/one-client-extension-browser.production.js'",
+    "test:es-check:es2015:module": "es-check es2015 'dist/one-client-extension-browser.production.esm.js' --module ",
     "test:integration:server": "npm run dev",
     "test:integration:tests": "wait-on http://localhost:3000/ && cypress run",
     "test:integration": "concurrently --raw --kill-others --success first npm:test:integration:server npm:test:integration:tests",
@@ -84,12 +84,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/eartho-group/one-extension-content.git"
+    "url": "git://github.com/eartho-group/one-client-extension-browser.git"
   },
   "bugs": {
-    "url": "https://github.com/eartho-group/one-extension-content/issues"
+    "url": "https://github.com/eartho-group/one-client-extension-browser/issues"
   },
-  "homepage": "https://github.com/eartho-group/one-extension-content#readme",
+  "homepage": "https://github.com/eartho-group/one-client-extension-browser#readme",
   "keywords": [
     "Eartho",
     "Webflow",

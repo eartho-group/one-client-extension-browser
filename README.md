@@ -71,7 +71,7 @@ Here's why:
   
 ```
   final options = { accessId: "0xd...07" };
-  final crendentials = earthoOne.connectWithRedirect(options);  
+  final crendentials = earthoOne.connectWithPopup(options);  
 ```
   
 We manage our documents on our website as a single source of truth. Open our quick start guide to
